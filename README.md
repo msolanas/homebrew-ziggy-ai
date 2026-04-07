@@ -5,7 +5,7 @@ Homebrew tap for [ZiggyAI](https://github.com/q6cvy7kyxj-droid/ZiggyLocalAI) —
 ## Install
 
 ```bash
-brew tap q6cvy7kyxj-droid/ziggy-ai
+brew tap msolanas/ziggy-ai
 brew install ziggy-ai
 ```
 
