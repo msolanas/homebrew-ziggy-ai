@@ -7,7 +7,6 @@ class ZiggyAi < Formula
   license "MIT"
 
   depends_on :macos
-  depends_on :xcode => ["15.0", :build]
   depends_on "python@3.14"
 
   def install
