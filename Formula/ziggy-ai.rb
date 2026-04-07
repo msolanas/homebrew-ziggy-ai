@@ -3,7 +3,7 @@ class ZiggyAi < Formula
   homepage "https://github.com/q6cvy7kyxj-droid/ZiggyLocalAI"
   url "https://github.com/q6cvy7kyxj-droid/ZiggyLocalAI.git",
       tag:      "v1.0.0",
-      revision: "HEAD"
+      revision: "d6e6163c4c53414db61cac7175f74ac1ac035b05"
   license "MIT"
 
   depends_on :macos
