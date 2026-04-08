@@ -42,6 +42,9 @@ class ZiggyAi < Formula
 
       Then start the engine:
         ziggy-ai start
+
+      If using Starship prompt, disable the Swift module to avoid timeouts:
+        echo '[swift]\ndisabled = true' >> ~/.config/starship.toml
     EOS
   end
 
