@@ -6,6 +6,7 @@ class ZiggyAi < Formula
       revision: "d6e6163c4c53414db61cac7175f74ac1ac035b05"
   license "MIT"
 
+  depends_on "hf"
   depends_on :macos
   depends_on "python@3.14"
 
@@ -39,6 +40,9 @@ class ZiggyAi < Formula
     <<~EOS
       To download the AI model (~15GB), run:
         ziggy-ai setup
+
+      To enable model update checks, authenticate with Hugging Face:
+        hf auth login
 
       Then start the engine:
         ziggy-ai start
